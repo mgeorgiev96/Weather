@@ -1,0 +1,35 @@
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate1{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rain {
+    0%{
+        transform: translateY(0) translateX(0);
+        opacity: 1;
+
+    }
+    50%{
+        box-shadow:  0 0 50px 20px white,
+        0 0 75px 20px white,
+        0 0 100px 20px white,
+        0 0 300px 20px white;
+    }
+    100%{
+        transform: translateY(100vh) translateX(100vw);
+        opacity: 0;
+    
+    }
+}
